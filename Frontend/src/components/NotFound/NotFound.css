@@ -1,0 +1,30 @@
+.mix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+.container-not {
+    max-width: 600px;
+    padding: 20px;
+}
+.error-code {
+    font-size: 120px;
+    font-weight: bold;
+    color: #ff4757;
+    text-shadow: 2px 2px 10px rgba(255, 71, 87, 0.5);
+}
+.btn-custom {
+    background-color: #ff4757;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #e84118;
+}
